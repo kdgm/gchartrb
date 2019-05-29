@@ -9,7 +9,7 @@ end
 
 module GoogleChart
   # Blatantly copied from GChart (http://gchart.rubyforge.org)
-  URL   = "http://chart.apis.google.com/chart"
+  URL   = "https://chart.apis.google.com/chart"
 
   SIMPLE_CHARS = ('A'..'Z').to_a + ('a'..'z').to_a + ('0'..'9').to_a
   EXTENDED_CHARS = ('A'..'Z').to_a + ('a'..'z').to_a + ('0'..'9').to_a + %w[- .]
